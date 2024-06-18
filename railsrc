@@ -1,0 +1,6 @@
+--database=postgresql
+--skip-test
+--javascript=esbuild
+--css=sass
+--asset-pipeline=sprockets
+--template=template.rb
