@@ -49,7 +49,7 @@ rails_command('db:create')
 rails_command('db:migrate')
 
 after_bundle do
-  git :init
+  # git :init
   git add: '.'
   git commit: %Q{ -m 'Initial commit' }
 end 

@@ -3,4 +3,4 @@
 --javascript=esbuild
 --css=sass
 --asset-pipeline=sprockets
---template=template.rb
+--template=~/.rails/template.rb
