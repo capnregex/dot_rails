@@ -1,0 +1,5 @@
+#!/user/bin/bash
+sudo apt install postgresql libpq-dev
+sudo -u postgres createuser --superuser $USER
+sudo -u postgres createdb $USER
+echo "\password" $USER | sudo -u postgres psql
